@@ -1,0 +1,33 @@
+[
+    {
+    "Id":1,
+    "type":"Ali House",
+    "price": 80000
+    },
+{
+  "Id":1,
+  "type":" Umer House",
+  "price": 6000
+},
+{
+  "Id":1,
+  "type":"Ahmad House",
+  "price": 78000
+},
+{
+  "Id":1,
+  "type":" Hamza House",
+  "price": 685000
+},
+{
+  "Id":1,
+  "type":"Jutt House",
+  "price": 9898000
+},
+{
+  "Id":1,
+  "type":"Nasir house",
+  "price": 68500
+}
+
+]

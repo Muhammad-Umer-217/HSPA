@@ -1,21 +1,61 @@
-.propImg{
-  
+/* General Image Properties */
+.propImg {
     height: 250px;
-   overflow: hidden;
-      
-}
-
-.img-wrapper{
     overflow: hidden;
 }
-.card:hover img{
-    transform : scale(1.2, 1.2) ;
-    transition-duration: 500ms;
-    transition-timing-function: ease-out;
+
+/* Card Image Wrapper */
+.card-img-wrapper {
+    overflow: hidden;
+    position: relative;
 }
 
-.card img{
-    transform : scale(1, 1) ;
-    transition-duration: 500ms;
-    transition-timing-function: ease-out;
+/* Card Image Styles */
+.card img {
+    transform: scale(1);
+    height: 250px;
+    transition: transform 500ms ease-out, opacity 500ms ease-out;
+    position: relative; /* Ensure proper stacking context */
+    z-index: 1; /* Image stays behind the text */
 }
+
+.card:hover img {
+    transform: scale(1.2);
+    opacity: 0.7;
+}
+
+/* Member Icons */
+.member-icons {
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    opacity: 0;
+    transition: bottom 300ms ease-in-out, opacity 300ms ease-in-out;
+    z-index: 2; /* Ensure icons are on top of the image */
+}
+
+.card-img-wrapper:hover .member-icons {
+    bottom: 0;
+    opacity: 1;
+}
+
+/* Text Styles (example) */
+.card-text {
+    position: absolute; /* Position text on top */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Centering adjustment */
+    z-index: 3; /* Text stays above everything */
+    color: white; /* Example text color */
+    text-align: center; /* Center text */
+}
+
+/* General Animation Class */
+.animate {
+    transition: all 300ms ease-in-out;
+}
+/* Button Styles */
+
+
