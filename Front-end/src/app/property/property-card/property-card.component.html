@@ -3,10 +3,10 @@
 
 <div  class="card">
 <div class="card-img-wrapper">
-<img class="propImg" src="assets/image/house 1.jpeg" >
+<img class="propImg" src="assets/image/{{property.Image}}.jpeg" >
 <ul class="list-inline text-center member-icons animate">
   <li class="list-inline-item">
-    <button class="btn btn-primary">EDIT</button>
+    <button class="btn btn-primary" routerLink="/property-detail/{{property.Id}}">EDIT</button>
   </li>
   <li class="list-inline-item">
     <button class="btn btn-primary">CONTACT</button>
@@ -14,7 +14,7 @@
 </ul>
   <div class="card-body p-1">  
 <h1>{{property.type}}</h1>
-<h2>{{property.id}}</h2>
+<h2>{{property.Id}}</h2>
 <h3>{{property.price}}</h3>
 </div>
 </div>

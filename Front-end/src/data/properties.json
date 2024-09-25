@@ -1,33 +1,45 @@
 [
     {
     "Id":1,
+    "Sellrent":1,
     "type":"Ali House",
-    "price": 80000
+    "price": 80000,
+    "Image":"house 1"
     },
 {
-  "Id":1,
+  "Id":2,
+  "Sellrent":1,
   "type":" Umer House",
-  "price": 6000
+  "price": 6000,
+  "Image":"house 2"
 },
 {
-  "Id":1,
+  "Id":3,
+  "Sellrent":1,
   "type":"Ahmad House",
-  "price": 78000
+  "price": 78000,
+  "Image":"house 3"
 },
 {
-  "Id":1,
+  "Id":4,
+  "Sellrent":1,
   "type":" Hamza House",
-  "price": 685000
+  "price": 685000,
+  "Image":"house 4"
 },
 {
-  "Id":1,
+  "Id":5,
+  "Sellrent":1,
   "type":"Jutt House",
-  "price": 9898000
+  "price": 9898000,
+  "Image":"house 5"
 },
 {
-  "Id":1,
+  "Id":6,
+  "Sellrent":1,
   "type":"Nasir house",
-  "price": 68500
+  "price": 68500,
+  "Image":"house 6"
 }
 
 ]

@@ -1,5 +1,6 @@
 import { sharedStylesheetJitUrl } from '@angular/compiler'
 import{Component, Input} from '@angular/core'
+import { Iproperty } from 'src/app/Iproperty.interface';
 
 
 
@@ -19,7 +20,7 @@ import{Component, Input} from '@angular/core'
 
 export class PropertyCardComponent{
 
-@Input() property:any
+@Input() property:Iproperty
 
 
 
